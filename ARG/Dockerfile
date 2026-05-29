@@ -1,5 +1,8 @@
 ARG version
 FROM almalinux:${version}
+ARG sudheer
+ARG vineela
+RUN echo "the boy sudheer is {sudheer} the girl vinnela is {vineela}"
 CMD ["sleep","100"]
 
 
